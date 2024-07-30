@@ -7,4 +7,4 @@ BlexTheme is a custom theme designed with a beautiful purple and magenta palette
 To install BlexTheme, you can use the provided installation script. Open your terminal and run the following command:
 
 ```sh
-bash <(curl https://raw.githubusercontent.com/Angelillo15/IceMinecraftTheme/main/install.sh)
+bash <(curl https://raw.githubusercontent.com/tBeastR/Blex_Theme-Pterodectyle/main/install.sh)
