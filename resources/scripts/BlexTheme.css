@@ -1,0 +1,127 @@
+/* Base colors */
+:root {
+  --main-color: #0D181E; /* Dark base color */
+  --secundary-color: #132537; /* Darker blue */
+  --tertiary-color: #a040ff; /* Purple */
+  --accent-color: #d63f7f; /* Magenta */
+  --background-url: url("https://ibb.co/KmTY8KF");
+}
+
+/* General Background */
+html, #app {
+  background-image: var(--background-url);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
+}
+
+/* General Styles */
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+  background-color: var(--main-color) !important;
+}
+
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2.jbVWLN {
+  background-color: var(--main-color) !important;
+  background-size: cover;
+}
+
+div.SubNavigation-sc-lfuaoi-0 {
+  background-color: rgba(255, 255, 255, 0) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+div.grid.grid-cols-6.gap-2.md:gap-4.col-span-4.lg:col-span-1.order-last.lg:order-none {
+  background-color: var(--main-color);
+}
+
+div.style-module_2Vp6MaXq.bg-gray-600.cursor-pointer,
+div.style-module_2Vp6MaXq.bg-gray-600 {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.2px);
+  -webkit-backdrop-filter: blur(9.2px);
+}
+
+div.style-module_2XbmHEcn.group,
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto,
+div.icon.mr-4,
+a.style-module_35MPv1CD.style-module_35MPv1CD.active,
+.style-module_1WqkLT9X,
+.style-module_35MPv1CD.active {
+  background-color: var(--main-color);
+}
+
+.style-module_1WqkLT9X:hover,
+.style-module_35MPv1CD.active:hover {
+  background-color: var(--secundary-color) !important;
+}
+
+div.GreyRowBox-sc-1xo9c6v-0.iTERJN.flex-wrap.md:flex-nowrap.mt-2,
+div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ,
+input.Input-sc-19rce1w-0.jqTCDz.cursor-pointer,
+div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group,
+div.TitledGreyBox___StyledDiv2-sc-gvsoy-1.jRrWLs,
+div.ContentBox___StyledDiv-sc-mjlt6f-2.iGOcRf,
+div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr,
+div.GreyRowBox-sc-1xo9c6v-0.DatabaseRow___StyledGreyRowBox-sc-1t67zwr-13.iTERJN.gkSIus,
+div.EditScheduleModal___StyledDiv2-sc-wh9db9-4.fhEpAC,
+div.EditScheduleModal___StyledDiv4-sc-wh9db9-6.jyDDEO,
+div.EditScheduleModal___StyledDiv5-sc-wh9db9-7.ueIjC,
+a.GreyRowBox-sc-1xo9c6v-0.ScheduleContainer___StyledGreyRowBox-sc-dlqnx9-2.dyLna-D.bppajE,
+div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn,
+div.CreateBackupButton___StyledDiv2-sc-da8bqw-3.eDncUf,
+textarea.Input__Textarea-sc-19rce1w-1.kKFWRA,
+div.flex.justify-end.space-x-4.mt-4.w-full.md:mt-0.md:w-48,
+select.Select-sc-17exaqp-0.dupyoa,
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.StartupContainer___StyledTitledGreyBox-sc-163imy2-1.kRunTE,
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D,
+label.PermissionRow__Container-sc-1h899cn-0.icxFlO:hover,
+div.style-module_1DtraXMW.bg-gray-700,
+input.Input-sc-19rce1w-0.jqTCDz,
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP,
+div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group,
+.group,
+.GreyRowBox-sc-1xo9c6v-0 {
+  background-color: var(--secundary-color);
+}
+
+/* Server Console Style */
+div.server-console-style-module__stat_block,
+div.server-console-style-module__chart_container {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.2px);
+  -webkit-backdrop-filter: blur(9.2px);
+}
+
+div.server-console-style-module__icon.bg-gray-700 {
+  background-color: var(--secundary-color);
+}
+
+button.style-module_4LBM1DKx,
+button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1:hover {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+  background-color: var(--main-color);
+}
+
+input.Input-sc-19rce1w-0.ZkNLd,
+input.Input-sc-19rce1w-0.jqTCDz {
+  background-color: var(--secundary-color);
+}
+
+body {
+  overflow: overlay;
+}
+
+Input,
+select,
+p.StartupContainer___StyledP-sc-163imy2-3.ekbHAG {
+  background-color: var(--secundary-color) !important;
+}
